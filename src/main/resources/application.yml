@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/myDB_managerCH
+    username: han
+    password: han
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8081
+
+ftp:
+  ipServer: 192.168.100.9
+  user: test
+  pass: 1234
