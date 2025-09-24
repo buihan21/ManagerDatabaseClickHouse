@@ -1,9 +1,6 @@
 package com.clickhouse.managerDB.controller;
 
-import com.clickhouse.managerDB.payload.request.ComListDBReq;
-import com.clickhouse.managerDB.payload.request.ComListDiskReq;
-import com.clickhouse.managerDB.payload.request.ComListTableReq;
-import com.clickhouse.managerDB.payload.request.SshToComputerReq;
+import com.clickhouse.managerDB.payload.request.*;
 import com.clickhouse.managerDB.payload.response.ResponseObject;
 import com.clickhouse.managerDB.service.BaseService;
 import com.clickhouse.managerDB.service.ComputerService;
@@ -21,25 +18,73 @@ public class ComputerController {
     @Autowired
     private BaseService baseService;
 
-    @GetMapping("/")
-    public ResponseEntity<ResponseObject> getAllComputers() throws Exception {
+//    @GetMapping("/")
+//    public ResponseEntity<ResponseObject> getAllComputers() throws Exception {
+//        return ResponseEntity.status(HttpStatus.OK).body(
+//                ResponseObject.builder()
+//                        .message("Get all computers")
+//                        .status(HttpStatus.OK)
+//                        .data(computerService.getAllComputers())
+//                        .build()
+//        );
+//    }
+
+//    @GetMapping("/getOne")
+//    public ResponseEntity<ResponseObject> getOneComputer(@RequestParam String ipAddress) throws Exception {
+//        return ResponseEntity.status(HttpStatus.OK).body(
+//                ResponseObject.builder()
+//                        .message("Get computer have IP: " + ipAddress)
+//                        .status(HttpStatus.OK)
+//                        .data(computerService.getComputerByIp(ipAddress))
+//                        .build()
+//        );
+//    }
+
+    @PostMapping("/add")
+    public ResponseEntity<ResponseObject> addComputer(@RequestBody ComCreateReq req) throws Exception {
         return ResponseEntity.status(HttpStatus.OK).body(
                 ResponseObject.builder()
-                        .message("Get all computers")
+                        .message("Add computer")
                         .status(HttpStatus.OK)
-                        .data(computerService.getAllComputers())
+                        .data(computerService.createComputer(req.getIpAddress(), req.getPort(), req.getName(), req.getUsername(),
+                                req.getPassword(), req.getLocation(), req.getClickHouseUser(), req.getClickHousePass()))
                         .build()
         );
     }
 
-    @GetMapping("/getOne")
-    public ResponseEntity<ResponseObject> getOneComputer(@RequestParam String ipAddress) throws Exception {
+    @GetMapping("/")
+    public ResponseEntity<ResponseObject> findComputer(@RequestBody ComFindReq req) throws Exception {
         return ResponseEntity.status(HttpStatus.OK).body(
                 ResponseObject.builder()
-                        .message("Get computer have IP: " + ipAddress)
+                        .message("Find computer")
                         .status(HttpStatus.OK)
-                        .data(computerService.getComputerByIp(ipAddress))
+                        .data(computerService.findComputer(req.getId(), req.getIpAddress(), req.getName(),
+                                req.getLocation(), req.getPageable()))
                         .build()
+        );
+    }
+
+    @PutMapping("/update")
+    public ResponseEntity<ResponseObject> updateComputer(@RequestBody ComUpdateReq req) throws Exception {
+        return ResponseEntity.status(HttpStatus.OK).body(
+                ResponseObject.builder()
+                        .message("Update computer")
+                        .status(HttpStatus.OK)
+                        .data(computerService.updateComputer(req.getId(), req.getIpAddress(), req.getPort(),
+                                req.getName(), req.getUsername(), req.getPassword(), req.getLocation(),
+                                req.getClickHouseUser(), req.getClickHousePass()))
+                        .build()
+        );
+    }
+
+    @DeleteMapping("/")
+    public ResponseEntity<ResponseObject> deleteComputer(@RequestParam Integer id) throws Exception {
+        return ResponseEntity.status(HttpStatus.OK).body(
+          ResponseObject.builder()
+                  .message("Delete computer")
+                  .status(HttpStatus.OK)
+                  .data(computerService.deleteComputer(id))
+                  .build()
         );
     }
 

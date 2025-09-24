@@ -1,8 +1,10 @@
 package com.clickhouse.managerDB.entity;
 
 import jakarta.persistence.*;
-import java.time.LocalDateTime;
+import lombok.Data;
 
+import java.time.LocalDateTime;
+@Data
 @Entity
 @Table(name = "tbl_computer")
 public class Computer {
@@ -19,5 +21,12 @@ public class Computer {
     private String username;
     @Column(nullable = false, length = 25)
     private String password;
+    @Column(nullable = false, length = 25)
+    private String clickHouseUser;
+    @Column(length = 25)
+    private String clickHousePass;
+    @Column(length = 25)
+    private String location;
+    private boolean deleted;
     private LocalDateTime createdAt = LocalDateTime.now();
 }

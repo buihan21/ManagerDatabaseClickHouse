@@ -82,7 +82,8 @@ public class BaseServiceImpl implements BaseService {
     public List<String> getListDisk(String ip, String username, String password) throws Exception {
         connect(ip, username, password);
 
-        String command = "lsblk -dn -o NAME";
+        //String command = "lsblk -dn -o NAME";
+        String command = "lsblk -dn -o NAME,TYPE | awk '$2==\"disk\" || $2==\"rom\" {print $1}'\n";
         CommandResult commandResult = executeCommand(command);
         if (!commandResult.isSuccess()) {
             throw new RuntimeException("Failed to get list disk: \n" + commandResult.getMessage());
@@ -101,10 +102,12 @@ public class BaseServiceImpl implements BaseService {
                                   String clickHouseUser, String clickHousePass) throws Exception {
         connect(ip, username, password);
         //String command = "clickhouse-client --query=\"SHOW DATABASES\"";
-        String command = String.format(
-                "clickhouse-client --user=%s --password=%s --query=\"SHOW DATABASES\"",
-                clickHouseUser, clickHousePass
-        );
+        String auth = authClickHouse(clickHouseUser, clickHousePass);
+        String command = String.format("clickhouse-client %s --query=\"SHOW DATABASES\"", auth);
+//        String command2 = String.format(
+//                "clickhouse-client --user=%s --password=%s --query=\"SHOW DATABASES\"",
+//                clickHouseUser, clickHousePass
+//        );
         CommandResult commandResult = executeCommand(command);
         if (!commandResult.isSuccess()) {
             throw new RuntimeException("Failed to get list db: \n" + commandResult.getMessage());

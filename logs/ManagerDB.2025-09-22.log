@@ -1,0 +1,853 @@
+2025-09-22 09:20:40 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 18168 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 09:20:40 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1223 ms
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 09:20:41 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 09:20:41 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 09:20:42 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 09:20:42 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 09:20:42 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a04ca74
+2025-09-22 09:20:42 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 09:20:42 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 09:20:43 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 09:20:43 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 09:20:43 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 09:20:44 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:20:44 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 09:20:44 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 4.278 seconds (process running for 6.241)
+2025-09-22 09:21:30 [http-nio-8081-exec-1] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 09:21:30 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 09:21:30 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 09:21:30 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 09:21:31 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 09:21:31 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 09:34:16 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 09:34:16 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 09:34:16 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 09:34:16 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 09:34:16 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 09:34:27 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 25992 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 09:34:27 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 09:34:27 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 09:34:27 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1163 ms
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 09:34:28 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 09:34:28 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 09:34:28 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 09:34:28 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79cdf2d4
+2025-09-22 09:34:28 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 09:34:29 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 09:34:29 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 09:34:29 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 09:34:30 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 09:34:30 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:34:30 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 09:34:30 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.805 seconds (process running for 5.819)
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 09:34:39 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 09:35:46 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 09:35:46 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 09:35:46 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 09:35:46 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 09:35:46 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 09:35:50 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 12416 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 09:35:50 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 09:35:51 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 959 ms
+2025-09-22 09:35:52 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 09:35:52 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 09:35:52 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 09:35:52 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 09:35:52 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 09:35:52 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4005e485
+2025-09-22 09:35:52 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 09:35:52 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 09:35:53 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 09:35:53 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 09:35:53 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 09:35:53 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 09:35:53 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 09:35:53 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.457 seconds (process running for 4.097)
+2025-09-22 09:35:56 [http-nio-8081-exec-1] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 09:35:56 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 09:35:56 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-22 09:35:57 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 09:35:57 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 09:35:57 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 10:11:38 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 10:11:38 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 10:11:38 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 10:11:38 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 10:11:38 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 10:11:41 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 15488 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 10:11:41 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 10:11:41 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1093 ms
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 10:11:42 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 10:11:42 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 10:11:43 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 10:11:43 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 10:11:43 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10b67f54
+2025-09-22 10:11:43 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 10:11:43 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 10:11:44 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 10:11:44 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 10:11:44 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 10:11:44 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 10:11:44 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 10:11:44 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.967 seconds (process running for 4.921)
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 10:12:11 [http-nio-8081-exec-1] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 10:14:57 [http-nio-8081-exec-3] ERROR [jobId=] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Failed to get list db: 
+Code: 516. DB::Exception: Received from localhost:9000. DB::Exception: han: Authentication failed: password is incorrect, or there is no user with such name.. (AUTHENTICATION_FAILED)] with root cause
+java.lang.RuntimeException: Failed to get list db: 
+Code: 516. DB::Exception: Received from localhost:9000. DB::Exception: han: Authentication failed: password is incorrect, or there is no user with such name.. (AUTHENTICATION_FAILED)
+	at com.clickhouse.managerDB.service.impl.BaseServiceImpl.getListDB(BaseServiceImpl.java:111)
+	at com.clickhouse.managerDB.controller.ComputerController.getListDB(ComputerController.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-09-22 10:34:10 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 10:34:10 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 10:34:10 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 10:34:10 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 10:34:10 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 10:34:15 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 23984 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 10:34:15 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 977 ms
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 10:34:16 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 10:34:16 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 10:34:17 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 10:34:17 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 10:34:17 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fc1e4fb
+2025-09-22 10:34:17 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 10:34:17 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 10:34:18 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 10:34:18 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 10:34:18 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 10:34:18 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 10:34:18 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 10:34:18 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.41 seconds (process running for 4.065)
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 10:34:33 [http-nio-8081-exec-4] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 10:34:46 [http-nio-8081-exec-7] ERROR [jobId=] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Failed to get list db: 
+Code: 516. DB::Exception: Received from localhost:9000. DB::Exception: han: Authentication failed: password is incorrect, or there is no user with such name.. (AUTHENTICATION_FAILED)] with root cause
+java.lang.RuntimeException: Failed to get list db: 
+Code: 516. DB::Exception: Received from localhost:9000. DB::Exception: han: Authentication failed: password is incorrect, or there is no user with such name.. (AUTHENTICATION_FAILED)
+	at com.clickhouse.managerDB.service.impl.BaseServiceImpl.getListDB(BaseServiceImpl.java:113)
+	at com.clickhouse.managerDB.controller.ComputerController.getListDB(ComputerController.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.JobServiceImpl - Start executing job 1
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.BackupServiceImpl - Starting create backup DB db2 to backup_db2_v1
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.BackupServiceImpl - Create backup DB db2 to backup_db2_v1
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.BackupServiceImpl - Starting compress file backup DB backup_db2_v1 to /tmp/backup_db2_v1.tar.gz
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.BackupServiceImpl - Compress file backup DB backup_db2_v1 to /tmp/backup_db2_v1.tar.gz
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.s.impl.FTPServerServiceImpl -  Starting put file /tmp/backup_db2_v1.tar.gz to server
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.s.impl.FTPServerServiceImpl - Put file /tmp/backup_db2_v1.tar.gz to server successful
+2025-09-22 10:37:44 [pool-2-thread-1] INFO  [jobId=1] c.c.m.service.impl.JobServiceImpl - Job 1 completed
+2025-09-22 10:49:12 [pool-2-thread-2] INFO  [jobId=2] c.c.m.service.impl.JobServiceImpl - Start executing job 2
+2025-09-22 10:49:12 [pool-2-thread-2] INFO  [jobId=2] c.c.m.s.impl.RestoreServiceImpl - Start restore database db2
+2025-09-22 10:49:12 [pool-2-thread-2] INFO  [jobId=2] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 10:49:12 [pool-2-thread-2] ERROR [jobId=2] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 10:49:12 [pool-2-thread-2] ERROR [jobId=2] c.c.m.s.impl.RestoreServiceImpl - Did not get file backup_db2_v1.tar.gz from server
+2025-09-22 10:49:12 [pool-2-thread-2] INFO  [jobId=2] c.c.m.service.impl.JobServiceImpl - Job 2 completed
+2025-09-22 10:53:03 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.JobServiceImpl - Start executing job 3
+2025-09-22 10:53:03 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.BackupServiceImpl - Starting create backup DB db2 to backup_db2_v2
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.BackupServiceImpl - Create backup DB db2 to backup_db2_v2
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.BackupServiceImpl - Starting compress file backup DB backup_db2_v2 to /tmp/backup_db2_v2.tar.gz
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.BackupServiceImpl - Compress file backup DB backup_db2_v2 to /tmp/backup_db2_v2.tar.gz
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.s.impl.FTPServerServiceImpl -  Starting put file /tmp/backup_db2_v2.tar.gz to server
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.s.impl.FTPServerServiceImpl - Put file /tmp/backup_db2_v2.tar.gz to server successful
+2025-09-22 10:53:04 [pool-2-thread-3] INFO  [jobId=3] c.c.m.service.impl.JobServiceImpl - Job 3 completed
+2025-09-22 10:54:10 [pool-2-thread-4] INFO  [jobId=4] c.c.m.service.impl.JobServiceImpl - Start executing job 4
+2025-09-22 10:54:10 [pool-2-thread-4] INFO  [jobId=4] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 10:54:10 [pool-2-thread-4] INFO  [jobId=4] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db1_v1.tar.gz from server to localPath /tmp/backup_db1_v1.tar.gz
+2025-09-22 10:54:10 [pool-2-thread-4] ERROR [jobId=4] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db1_v1.tar.gz from server to localPath /tmp/backup_db1_v1.tar.gz
+2025-09-22 10:54:10 [pool-2-thread-4] ERROR [jobId=4] c.c.m.s.impl.RestoreServiceImpl - Did not get file backup_db1_v1.tar.gz from server
+2025-09-22 10:54:10 [pool-2-thread-4] INFO  [jobId=4] c.c.m.service.impl.JobServiceImpl - Job 4 completed
+2025-09-22 11:00:13 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 11:00:13 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 11:00:13 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:00:13 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 11:00:13 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 11:00:18 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 23636 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 11:00:18 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 11:00:19 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 11:00:20 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 11:00:20 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 11:00:20 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47162173
+2025-09-22 11:00:20 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 11:00:20 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 11:00:21 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 11:00:21 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:00:21 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 11:00:22 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:00:22 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 11:00:22 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.725 seconds (process running for 4.464)
+2025-09-22 11:00:44 [http-nio-8081-exec-2] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 11:00:44 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 11:00:44 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-22 11:00:44 [pool-2-thread-1] INFO  [jobId=5] c.c.m.service.impl.JobServiceImpl - Start executing job 5
+2025-09-22 11:00:44 [pool-2-thread-1] INFO  [jobId=5] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 11:00:45 [pool-2-thread-1] INFO  [jobId=5] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 11:00:45 [pool-2-thread-1] INFO  [jobId=5] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 11:00:45 [pool-2-thread-1] INFO  [jobId=5] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 11:00:45 [pool-2-thread-1] INFO  [jobId=5] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:00:45 [pool-2-thread-1] ERROR [jobId=5] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:00:45 [pool-2-thread-1] ERROR [jobId=5] c.c.m.s.impl.RestoreServiceImpl - Did not get file backup_db2_v1.tar.gz from server
+2025-09-22 11:00:46 [pool-2-thread-1] ERROR [jobId=5] c.c.m.service.impl.JobServiceImpl - Job 5 failed: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+java.lang.RuntimeException: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:87)
+	at com.clickhouse.managerDB.service.impl.JobServiceImpl.lambda$submitJob$0(JobServiceImpl.java:64)
+	at com.clickhouse.managerDB.config.MdcRunnable.run(MdcRunnable.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+	at com.clickhouse.managerDB.service.impl.RestoreServiceImpl.restoreTable(RestoreServiceImpl.java:87)
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:82)
+	... 7 common frames omitted
+2025-09-22 11:05:40 [http-nio-8081-exec-5] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:05:40 [http-nio-8081-exec-5] ERROR [jobId=] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:08:25 [http-nio-8081-exec-7] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:08:25 [http-nio-8081-exec-7] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/backup_db2_v1.tar.gz from server successful
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.service.impl.JobServiceImpl - Start executing job 6
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/backup_db2_v1.tar.gz from server successful
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.RestoreServiceImpl - Get file backup_db2_v1.tar.gz from server
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.RestoreServiceImpl - Decompressed backup file /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.RestoreServiceImpl - Dropped table db2.Product successful
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.s.impl.RestoreServiceImpl - Restored table db2.Product successful
+2025-09-22 11:10:32 [pool-2-thread-2] INFO  [jobId=6] c.c.m.service.impl.JobServiceImpl - Job 6 completed
+2025-09-22 11:25:35 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 11:25:35 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 11:25:35 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:25:35 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 11:25:35 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 11:25:40 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 28520 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 11:25:40 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 11:25:41 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 11:25:41 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 11:25:42 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 11:25:42 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 11:25:42 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b1ff8cd
+2025-09-22 11:25:42 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 11:25:42 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 11:25:43 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 11:25:43 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:25:43 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 11:25:43 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:25:43 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 11:25:43 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.712 seconds (process running for 4.377)
+2025-09-22 11:32:08 [http-nio-8081-exec-1] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 11:32:08 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 11:32:08 [http-nio-8081-exec-1] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 11:32:08 [http-nio-8081-exec-1] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 11:32:08 [http-nio-8081-exec-1] ERROR [jobId=] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "net.schmizz.sshj.SSHClient.startSession()" because "this.sshClient" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "net.schmizz.sshj.SSHClient.startSession()" because "this.sshClient" is null
+	at com.clickhouse.managerDB.service.impl.BaseServiceImpl.executeCommand(BaseServiceImpl.java:56)
+	at com.clickhouse.managerDB.service.impl.FTPServerServiceImpl.getFileFromServer(FTPServerServiceImpl.java:76)
+	at com.clickhouse.managerDB.controller.FTPServerController.testGetFile(FTPServerController.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-09-22 11:35:46 [pool-2-thread-1] INFO  [jobId=7] c.c.m.service.impl.JobServiceImpl - Start executing job 7
+2025-09-22 11:35:46 [pool-2-thread-1] INFO  [jobId=7] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 11:35:47 [pool-2-thread-1] INFO  [jobId=7] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 11:35:47 [pool-2-thread-1] INFO  [jobId=7] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 11:35:47 [pool-2-thread-1] INFO  [jobId=7] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 11:35:47 [pool-2-thread-1] ERROR [jobId=7] c.c.m.service.impl.JobServiceImpl - Job 7 failed: java.lang.NullPointerException: Cannot invoke "String.endsWith(String)" because "folderPath" is null
+java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "String.endsWith(String)" because "folderPath" is null
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:87)
+	at com.clickhouse.managerDB.service.impl.JobServiceImpl.lambda$submitJob$0(JobServiceImpl.java:64)
+	at com.clickhouse.managerDB.config.MdcRunnable.run(MdcRunnable.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.endsWith(String)" because "folderPath" is null
+	at com.clickhouse.managerDB.service.impl.BaseServiceImpl.checkExistsFile(BaseServiceImpl.java:161)
+	at com.clickhouse.managerDB.service.impl.RestoreServiceImpl.restoreTable(RestoreServiceImpl.java:83)
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:82)
+	... 7 common frames omitted
+2025-09-22 11:38:12 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 11:38:12 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 11:38:12 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:38:12 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 11:38:12 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 11:38:17 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 13044 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 11:38:17 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1010 ms
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 11:38:18 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 11:38:18 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 11:38:18 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 11:38:19 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4468fda8
+2025-09-22 11:38:19 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 11:38:19 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 11:38:19 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 11:38:19 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 11:38:20 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 11:38:20 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 11:38:20 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 11:38:20 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.447 seconds (process running for 4.104)
+2025-09-22 11:38:31 [http-nio-8081-exec-3] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 11:38:31 [http-nio-8081-exec-3] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 11:38:31 [http-nio-8081-exec-3] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 11:38:31 [pool-2-thread-1] INFO  [jobId=8] c.c.m.service.impl.JobServiceImpl - Start executing job 8
+2025-09-22 11:38:31 [pool-2-thread-1] INFO  [jobId=8] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 11:38:31 [pool-2-thread-1] INFO  [jobId=8] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 11:38:31 [pool-2-thread-1] INFO  [jobId=8] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 11:38:32 [pool-2-thread-1] INFO  [jobId=8] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 11:38:32 [pool-2-thread-1] INFO  [jobId=8] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath null
+2025-09-22 11:38:32 [pool-2-thread-1] ERROR [jobId=8] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 11:38:32 [pool-2-thread-1] ERROR [jobId=8] c.c.m.s.impl.RestoreServiceImpl - Did not get file backup_db2_v1.tar.gz from server
+2025-09-22 11:38:32 [pool-2-thread-1] ERROR [jobId=8] c.c.m.service.impl.JobServiceImpl - Job 8 failed: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+java.lang.RuntimeException: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:87)
+	at com.clickhouse.managerDB.service.impl.JobServiceImpl.lambda$submitJob$0(JobServiceImpl.java:64)
+	at com.clickhouse.managerDB.config.MdcRunnable.run(MdcRunnable.java:21)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.RuntimeException: Did not get filebackup_db2_v1.tar.gzfrom FTP server
+	at com.clickhouse.managerDB.service.impl.RestoreServiceImpl.restoreTable(RestoreServiceImpl.java:95)
+	at com.clickhouse.managerDB.controller.RestoreController.lambda$responseTable$1(RestoreController.java:82)
+	... 7 common frames omitted
+2025-09-22 11:40:43 [http-nio-8081-exec-9] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 11:40:43 [http-nio-8081-exec-9] ERROR [jobId=] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 11:53:32 [http-nio-8081-exec-7] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/backup_db2_v1.tar.gz
+2025-09-22 11:53:32 [http-nio-8081-exec-7] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/backup_db2_v1.tar.gz from server successful
+2025-09-22 12:02:12 [http-nio-8081-exec-5] INFO  [jobId=] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 12:02:12 [http-nio-8081-exec-5] ERROR [jobId=] c.c.m.s.impl.FTPServerServiceImpl - Failed to get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 12:19:08 [pool-2-thread-2] INFO  [jobId=9] c.c.m.service.impl.JobServiceImpl - Start executing job 9
+2025-09-22 12:19:08 [pool-2-thread-2] INFO  [jobId=9] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 12:19:08 [pool-2-thread-2] INFO  [jobId=9] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath null
+2025-09-22 12:19:08 [pool-2-thread-2] INFO  [jobId=9] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/get-file/backup_db2_v1.tar.gz from server successful
+2025-09-22 12:19:08 [pool-2-thread-2] INFO  [jobId=9] c.c.m.s.impl.RestoreServiceImpl - Get file backup_db2_v1.tar.gz from server
+2025-09-22 12:19:09 [pool-2-thread-2] WARN  [jobId=9] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+2025-09-22 12:19:09 [pool-2-thread-2] ERROR [jobId=9] o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: value too long for type character varying(255)
+2025-09-22 12:38:01 [sshj-Reader-/192.168.115.135:22-1758515911826] ERROR [jobId=] n.s.sshj.transport.TransportImpl - Dying because - An established connection was aborted by the software in your host machine
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:315)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+	at net.schmizz.sshj.transport.Reader.run(Reader.java:50)
+2025-09-22 12:38:01 [sshj-Reader-/192.168.115.135:22-1758515911826] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Disconnected - UNKNOWN
+2025-09-22 14:02:22 [HikariPool-1:housekeeper] WARN  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m36s354ms621µs800ns).
+2025-09-22 14:03:18 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:03:18 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:03:18 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:03:18 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:03:18 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 14:08:30 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 16304 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 14:08:30 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1068 ms
+2025-09-22 14:08:31 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 14:08:32 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 14:08:32 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 14:08:32 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 14:08:32 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 14:08:32 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@780ee3ad
+2025-09-22 14:08:32 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 14:08:32 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 14:08:33 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 14:08:33 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:08:33 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 14:08:33 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:08:33 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 14:08:33 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.749 seconds (process running for 4.467)
+2025-09-22 14:10:23 [http-nio-8081-exec-2] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 14:10:23 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 14:10:23 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 14:10:23 [pool-2-thread-1] INFO  [jobId=10] c.c.m.service.impl.JobServiceImpl - Start executing job 10
+2025-09-22 14:10:23 [pool-2-thread-1] INFO  [jobId=10] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 14:10:23 [pool-2-thread-1] INFO  [jobId=10] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 14:10:24 [pool-2-thread-1] INFO  [jobId=10] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 14:10:24 [pool-2-thread-1] INFO  [jobId=10] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 14:10:24 [pool-2-thread-1] INFO  [jobId=10] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath null
+2025-09-22 14:10:24 [pool-2-thread-1] INFO  [jobId=10] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/get-file/backup_db2_v1.tar.gz from server successful
+2025-09-22 14:10:24 [pool-2-thread-1] INFO  [jobId=10] c.c.m.s.impl.RestoreServiceImpl - Get file backup_db2_v1.tar.gz from server
+2025-09-22 14:10:25 [pool-2-thread-1] WARN  [jobId=10] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 22001
+2025-09-22 14:10:25 [pool-2-thread-1] ERROR [jobId=10] o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: value too long for type character varying(255)
+2025-09-22 14:14:37 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:14:37 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:14:37 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:14:37 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:14:37 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 14:14:42 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 11884 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 14:14:42 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1179 ms
+2025-09-22 14:14:43 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 14:14:43 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 14:14:44 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 14:14:44 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 14:14:44 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 14:14:44 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e521067
+2025-09-22 14:14:44 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 14:14:44 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 14:14:45 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 14:14:45 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:14:45 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 14:14:45 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:14:45 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 14:14:45 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.933 seconds (process running for 4.595)
+2025-09-22 14:15:04 [http-nio-8081-exec-3] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 14:15:04 [http-nio-8081-exec-3] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 14:15:04 [http-nio-8081-exec-3] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 14:15:04 [pool-2-thread-1] INFO  [jobId=11] c.c.m.service.impl.JobServiceImpl - Start executing job 11
+2025-09-22 14:15:04 [pool-2-thread-1] INFO  [jobId=11] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 14:15:04 [pool-2-thread-1] INFO  [jobId=11] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.RestoreServiceImpl - Start restore table db2.Product
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath null
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/get-file/backup_db2_v1.tar.gz from server successful
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.RestoreServiceImpl - Get file backup_db2_v1.tar.gz from server
+2025-09-22 14:15:05 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.RestoreServiceImpl - Decompressed backup file /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 14:15:06 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.RestoreServiceImpl - Dropped table db2.Product successful
+2025-09-22 14:15:07 [pool-2-thread-1] INFO  [jobId=11] c.c.m.s.impl.RestoreServiceImpl - Restored table db2.Product successful
+2025-09-22 14:15:07 [pool-2-thread-1] INFO  [jobId=11] c.c.m.service.impl.JobServiceImpl - Job 11 completed
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.service.impl.JobServiceImpl - Start executing job 12
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.RestoreServiceImpl - Start restore advanced db2.User
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.FTPServerServiceImpl -  Starting get file backup_db2_v1.tar.gz from server to localPath /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.FTPServerServiceImpl - Get file /tmp/get-file/backup_db2_v1.tar.gz from server successful
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.RestoreServiceImpl - Get file backup_db2_v1.tar.gz from server
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.RestoreServiceImpl - Decompressed backup file /tmp/get-file/backup_db2_v1.tar.gz
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.RestoreServiceImpl - Dropped table db2.User successful
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.s.impl.RestoreServiceImpl - Restored table db2.User successful
+2025-09-22 14:18:51 [pool-2-thread-2] INFO  [jobId=12] c.c.m.service.impl.JobServiceImpl - Job 12 completed
+2025-09-22 14:29:20 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:29:20 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:29:20 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:29:20 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:29:20 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 14:38:14 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 4600 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 14:38:14 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 14:38:14 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 14:38:14 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1105 ms
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 14:38:15 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 14:38:15 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 14:38:15 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@455cbf18
+2025-09-22 14:38:15 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 14:38:15 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 14:38:16 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 14:38:16 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:38:16 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 14:38:17 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:38:17 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 14:38:17 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.656 seconds (process running for 4.266)
+2025-09-22 14:38:39 [http-nio-8081-exec-2] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 14:38:39 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 14:38:39 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 14:38:40 [http-nio-8081-exec-2] WARN  [jobId=] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-22 14:40:18 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:40:18 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:40:18 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:40:18 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:40:18 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 14:40:24 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 15540 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 14:40:24 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 14:40:24 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 14:40:24 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1152 ms
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 14:40:25 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 14:40:25 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 14:40:25 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c9372ed
+2025-09-22 14:40:25 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 14:40:25 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 14:40:26 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 14:40:26 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:40:26 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 14:40:27 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:40:27 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 14:40:27 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.616 seconds (process running for 4.228)
+2025-09-22 14:40:33 [http-nio-8081-exec-2] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 14:40:33 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 14:40:33 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 14:44:41 [http-nio-8081-exec-9] WARN  [jobId=] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-22 14:44:49 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:44:49 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:44:49 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:44:49 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:44:49 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-22 14:45:48 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Starting ManagerDbApplication using Java 19.0.2 with PID 16176 (E:\NLT\project\managerDB\managerDB\target\classes started by laptop in E:\NLT\project\managerDB\managerDB)
+2025-09-22 14:45:48 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-22 14:45:48 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-22 14:45:48 [main] INFO  [jobId=] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 980 ms
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-22 14:45:49 [main] INFO  [jobId=] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-22 14:45:49 [main] INFO  [jobId=] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-22 14:45:49 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-22 14:45:49 [main] INFO  [jobId=] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1acc873b
+2025-09-22 14:45:49 [main] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-22 14:45:50 [main] INFO  [jobId=] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.13
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-22 14:45:50 [main] INFO  [jobId=] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 14:45:50 [main] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:45:50 [main] WARN  [jobId=] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-22 14:45:51 [main] INFO  [jobId=] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-09-22 14:45:51 [main] INFO  [jobId=] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-09-22 14:45:51 [main] INFO  [jobId=] c.c.managerDB.ManagerDbApplication - Started ManagerDbApplication in 3.386 seconds (process running for 4.019)
+2025-09-22 14:46:50 [http-nio-8081-exec-2] INFO  [jobId=] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 14:46:50 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-22 14:46:50 [http-nio-8081-exec-2] INFO  [jobId=] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-22 14:48:39 [http-nio-8081-exec-6] INFO  [jobId=] n.s.sshj.transport.random.JCERandom - Creating new SecureRandom.
+2025-09-22 14:48:39 [http-nio-8081-exec-6] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Client identity string: SSH-2.0-SSHJ_0.39.0
+2025-09-22 14:48:39 [http-nio-8081-exec-6] INFO  [jobId=] n.s.sshj.transport.TransportImpl - Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+2025-09-22 14:55:09 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22 14:55:09 [tomcat-shutdown] INFO  [jobId=] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-22 14:55:09 [SpringApplicationShutdownHook] INFO  [jobId=] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-22 14:55:09 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-22 14:55:09 [SpringApplicationShutdownHook] INFO  [jobId=] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

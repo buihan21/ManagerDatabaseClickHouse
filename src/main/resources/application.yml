@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/myDB_managerCH
+    url: jdbc:postgresql://localhost:5433/myDB_managerCH
     username: han
     password: han
 
@@ -14,6 +14,6 @@ server:
   port: 8081
 
 ftp:
-  ipServer: 192.168.100.9
+  ipServer: 192.168.100.5
   user: test
   pass: 1234
